@@ -86,6 +86,11 @@ public:
         sort(data, data + currentSize);
     }
 
+    T& operator[] (int index)
+    {
+        return data[index];
+    }
+
 };
 
 int main()
